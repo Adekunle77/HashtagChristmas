@@ -7,17 +7,7 @@ $(document).ready(function(){
     //var cont1 = document.getElementById("cont1");
     var revesreCout1 = TweenMax.to(document.getElementById("cont1"), 1.2, {scale:0.2, opacity:0, ease:Cubic.easeOut})
     
-    revesreCout1.reverse(0);
-    
-    
-   $("#cont2-3").click(function(){
-        var x = $("#cont2-3").position();
-        alert("Top position: " + x.top + " Left position: " + x.left);
-    });
-    
-    
-    
-    
+    revesreCout1.reverse(0);   
     
 // On click for for block 1    
 
